@@ -57,7 +57,7 @@ nav {
 nav a {
     color: var(--med-green);
     text-decoration: none;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 22px; 
     margin-left: 20px;
@@ -160,7 +160,7 @@ footer {
 
 h1 {
     font-size: 32px; 
-    font-family: Lora;
+    font-family: 'Lora', serif;
     color: var(--med-green);
     font-weight: 600;
     line-height: 55px;
@@ -178,7 +178,7 @@ h1 {
 
 h2 {
     font-size: 50px; 
-    font-family: Lora;
+    font-family: 'Lora', serif;
     color: var(--med-green);
     font-weight: 800;
     line-height: 55px;
@@ -186,7 +186,7 @@ h2 {
 
 h3 {
     color: var(--med-green);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px; 
     line-height: 30px;
@@ -194,14 +194,14 @@ h3 {
 
 h4 {
     color: var(--med-green);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px; 
 }
 
 p {
     color: var(--grey);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px; 
     line-height: 30px;
@@ -209,7 +209,7 @@ p {
 
 li {
     color: var(--grey);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px; 
     line-height: 30px;
