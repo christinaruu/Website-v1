@@ -6,6 +6,7 @@
     --peach: #F6BD9D;
     --light-grey: #CCCCCC;
     --grey: #4F4F4F;
+    --background: #FBF9F6;
 }
 
 html {
@@ -52,6 +53,7 @@ body {
 nav {
     padding-top: 50px;
     padding-bottom: 100px;
+    background-color: var(--background);
 }
 
 nav a {
@@ -69,9 +71,21 @@ a {
     color: var(--peach);
 }
 
+a:hover {
+    border-bottom: 3px solid var(--peach);
+}
+
+.a-footer:hover {
+    border-bottom: 3px solid var(--backgroundn);
+}
+
 .nav-name {
     color: var(--peach);
     float: left;
+}
+
+.nav-name:hover {
+    border-bottom: 3px solid var(--peach);
 }
 
 .nav-other-text {
@@ -107,6 +121,11 @@ a {
     border-radius: 20px;
     margin-bottom: 50px;
     float: center;
+    transition: 0.3s;
+}
+
+.proj-preview:hover {
+    transform: translate(0, -10px);
 }
 
 .fixed {
@@ -233,8 +252,8 @@ li {
 
 .top-right {
     position: absolute;
-    top: 40px;
-    right: 80px;
+    top: 46px;
+    right: 95px;
 }
 
 .bot-right {
