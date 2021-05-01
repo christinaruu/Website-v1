@@ -9,6 +9,22 @@
     --background: #FBF9F6;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #dfdfdf;
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--med-green); 
+    border-radius: 10px;
+  }
+
 html {
     height: 100%; 
     font-family: sans-serif;
