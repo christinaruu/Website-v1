@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christina Ru - University of Waterloo Engineering student / current Product Designer at LCBOnext.">
+    <meta name="author" content="Christina Ru">
+
+    <title>Christina Ru - LCBOdesk</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="Images/favicon.png" />
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="container">
+    <nav>
+        <a href="index.html" class="nav-name">Christina Ru</a>
+        <a href="/Files/Christina Ru Resume.pdf" class="nav-other-text" target="_blank">Resume</a>
+        <a href="about.html" class="nav-other-text" >About</a>
+    </nav>
+
+    <div class="container-med">
+        <img src="Images/lcbodesk/main-lcbodesk.png" alt="#" style="width:100%">
+    </div>
+
+    <div class="container-proj">
+        <h2 class="padding-50">LCBOdesk</h2>
+        <h3><b>Company</b> – LCBO|next </h3>
+        <h3><b>Role</b> – Product designer along with one product manager and two full-stack developers </h3>
+        <h3><b>Tools</b> – Figma </h3>
+        <h3><b>Year</b> – 2021 </h3>
+
+        <h1 class="padding-50">Background</h1>
+        <h3 class="padding-30">What is LCBO|next?</h3>
+        <p>The Liquor Control Board of Ontario (LCBO) is a Canadian Crown corporation that is responsible for selling and distributing alcoholic beverages across Ontario. With more than 660 retail stores and 450 vendors, the LCBO’s quasi-monopoly status in Canada’s most populous province has made it the world’s largest purchaser of alcoholic beverages. With a lot at stake, the LCBO is dedicated to managing and delivering remarkable experiences to Ontarians for the world’s wines, beers, and spirits. 
+
+            <br><br> To stay competitive and avoid complacency despite a quasi-monopoly status, the LCBO kickstarted a new initiative with LCBO|next based out of Communitech, a Waterloo innovation hub. As the innovation lab, it’s responsible for exploring new technologies and enhancing the LCBO’s technology initiatives to solve the unique problems customers or business partners face. This means bringing fresh ideas, creative thinking, and new skills to the table and constantly learning on a day-to-day basis. With the resources of a large company and the culture and energy of a start-up, the LCBO|next lab produces ideas that have lasting impacts on the LCBO’s operations and customer experience across the province. 
+            
+            <br><br> Co-op students are always encouraged to seek and discover new initiatives that can be tackled and one of the ideas that I came up with was tackling the problem of the lab’s efficient process for tracking and remediating bugs. This was a brand-new idea with nothing completed by previous students, so it was important to dive right into research. 
+            </p>
+
+        <h3 class="padding-30">Bug Detection</h3>
+        <p>The LCBO|next lab is always looking for ways to improve existing products to optimize their impact and ultimately improve the return on investment (ROI). 
+        </p>
+
+        <h1 class="padding-50">
+            Despite managing and monitoring a multitude of products that are being pushed to production every year, there was previously no formal process for handling any complications that may arise. 
+        </h1>
+
+        <p><br>Historically, any bugs for existing LCBO|next products have come through email or phone, typically to the Director of Innovation or the Product Manager. This was only if the app user already knew who to contact, and how to contact them because this information was not made readily available in any of the applications developed before my term. Any important emails that were directed only to a previous product manager co-op would forever be lost since no one else had access to their inbox. 
+
+        <br><br>For LCBO|next applications that were hosted on the LCBO’s production server rather than LCBO|next’s production server, any bug reports or feature requests were submitted to the LCBO’s ServiceNow IT Portal. However, this channel of communication was only sufficient for LCBO employees since an LCBO email was required for accessing the ServiceNow portal. 
+        </p>
+
+        <h1 class="padding-50">
+            This meant any of our external business partners or general retail consumers who also use LCBO|next apps on a daily basis were unable to communicate directly to us.  
+        </h1>
+
+        <p>
+            <br>In order for users to get the most out of LCBO|next products, they need to be able to use the applications bug-free and suggest improvements to the app that can aid in their workflow. As these users don’t know who the point of contact is, and how to contact them, lots of constructive feedback for the applications is being missed and users are extracting suboptimal value out of the products. This may ultimately lead to churn. Thus, we can assume the following. 
+            <ul>
+                <li>Having an easy-to-use and easily accessible method of communication between stakeholders and the LCBO|next team would encourage more frequent communication with higher levels of quality</li>
+                <li>Being able to holistically receive, track, and monitor incoming bugs or enhancement requests in one place will ensure that all requests are either addressed or closed with transparent and visible justification.  </li>
+            </ul>
+        </p>
+
+        <h3 class="padding-30">Project Idea</h3>
+        <p>We first listed out a few more of our assumptions, in addition to the ones above. 
+            <ul>
+                <li>Key users of our product would be the LCBO|next team and LCBO|next product users (retail staff, LCO operators, grocery team, LCBO business team, etc.)
+                </li>
+                <li>Key actions users of the product would want to do were bug reporting, enhancement requests, suggesting features, communicating to resolve misunderstandings, and tracking the status of ongoing issues.   </li>
+                <li>Having a platform with data that persisted past co-op terms would also provide value in providing context to incoming students and prevent the loss of great ideas between co-op terms. 
+                </li>
+            </ul>
+        </p>
+
+        <h3 class="padding-30">Constraints</h3>
+        <p>Time 
+            <br>Since this project was occurring during a co-op work term, we faced the ever-present constraint of time. Being confined to a four-month work term, we were determined to at least get a bronze phase of the project out the door before the term ended so that the new co-op students could pick up the project in an easily comprehensible state. 
+            
+            <br><br>Work From Home
+            <br>Another constraint was that our team was kept within the confines of our own homes, as millions of others were during the COVID-19 pandemic. This meant we couldn’t conduct in-person user interviews, usability tests, or concierge tests, which could have provided us with some invaluable insights. Hosting these sessions remotely may have also influenced the transparency or accuracy of our results/findings, but we had to make the most of the cards we were dealt. 
+            </p>
+
+        <h1 class="padding-50">User/Market Research </h1>
+        <h3 class="padding-30">User interviews</h3>
+        <p>
+            Talking to LCBO|next product users was the easy part. We knew who to reach out to, and we could easily access their contact information. 
+
+            <br> <br> On the other hand, for LCBO|next students, we couldn’t talk to students of the past and present. So, the next best thing we could do to “talk” to previous students was to read any documentation they left behind. Despite its extremely agile nature and speedy tempo, the lab has a culture of documenting almost every aspect of a product journey, so a lot could be learned from just reading.  
+        </p>
+
+        <h3 class="padding-30">LCBO|next Team</h3>
+        <p>Conclusions</p>
+        <ul>
+            <li>There is little visibility from the developer perspective on incoming bugs
+            </li>
+            <li>There is little communication, if any, between the LCBO|next team and those that raised the bug unless it was raised from within the company
+
+            </li>
+            <li>Numerous bugs are being tracked at any given time, and more than 2 hours per week are being spent on avoidable communication regarding these bugs 
+            </li>
+            <li>There were seven 30 minute phone calls and more than 40 back and forth emails regarding bugs in the past few weeks </li>
+        </ul>
+        <p>Goals and pain points</p>
+        <ul>
+            <li>LCBO|next as a team wants transparency into incoming bug requests
+            </li>
+            <li>LCBO|next wants the ability to notify the end-user of an addressed bug
+            </li>
+            <li>LCBO|next wants a way to seamlessly keep track of incoming bugs from all different channels
+            </li>
+        </ul>
+
+        <h3 class="padding-30">LCBO|next App Users</h3>
+        <p>Conclusions</p>
+        <ul>
+            <li>Most users are confused as to who to contact when they encounter a bug on most LCBO|next applications
+            </li>
+            <li>Most users external to the company have not been notified of a bug being remediated</li>
+            <li>Bugs are not often encountered, but discovered bugs are not remediated for months after reporting
+            </li>
+        </ul>
+
+        <p>Goals and pain points</p>
+        <ul>
+        <li>Power users expressed interest in knowing when an app they have reported becomes fixed
+        </li>
+        <li>Power users want visibility into the LCBO|next lab to see what stage of remediation the bug ticket is in</li>
+        <li>Most users want to have confidence that they are contacting the right person regarding a bug, and with ease
+        </li>
+        </ul>
+
+        <h3 class="padding-30">User Personas</h3>
+        <p>After conducting 8 user interviews, we compiled all our notes and conclusions and created two distinct personas. The personas below are simplified versions of the personas we had developed.</p> <br>
+    </div>
+
+    <div class="container-med">
+        <img src="Images/lcbodesk/persona-student.png" alt="#" style="width:100%">
+        <img src="Images/lcbodesk/persona-user.png" alt="#" style="width:100%">
+    </div>
+
+    <div class="container-proj">
+        <h3 class="padding-30">Customer Journey</h3>
+        <p>Using a combination of the newly-made personas and the insights we gained from the user interviews, we were able to visualize a typical customer journey and create a journey map. Typically, this would've also been supplemented with findings from an in-person concierge test, but with the ongoing pandemic, we had to make do with what we had. </p> <br>
+    </div>
+
+    <div class="container-med">
+        <img src="Images/lcbodesk/journey map - app user.png" alt="#" style="width:100%">
+        <img src="Images/lcbodesk/journey map - lcbonext.png" alt="#" style="width:100%">
+    </div>
+
+    <div class="container-proj">
+        <h3 class="padding-30">Market Analysis </h3>
+        <p>
+            As with any company, once the Product team had an idea that’s been validated, we had to look into what was already available in the market and decide between buying or building out a solution. Several solutions were considered and analyzed, FreshDesk being one.
+
+            <br> <br>FreshDesk is a SaaS cloud-based company that helps customer-facing teams organize, prioritize, and respond to customer queries. Although it is widely accepted by companies in the technology industry, we concluded that it was not right for our needs. For a company to use FreshDesk, customers must email a designated support email (e.g. support@lcbo.com). Leaving an LCBO|next app to write an email could discourage users from submitting queries, so we wanted to make the experience as seamless as possible and embed the query-submitting functionality directly into all of our LCBO|next apps. 
+
+            <br> <br>From prior experience, we learned that integration availability was not as extensive as we would have liked from FreshDesk, so it was not ideal to integrate with the multiple systems we would have liked. We also wanted to avoid the overhead involved with integrating FreshDesk with each of the several apps we managed regularly. Creating our own application from the ground up would allow us to create it in a way that we could think of it almost as a browser extension we could access from any of our LCBO|next apps. It would also allow us to directly run analytics through Amplitude, Google Analytics, or Segment rather than having to query data from the FreshDesk portal to run analytics separately. 
+   
+            <br> <br>That’s all to say, it was better overall for us to simply build out a solution. 
+        </p>
+
+        <h1 class="padding-30">Design</h1>
+        <p>
+            To ensure internal team alignment, I first put together a low-fidelity prototype and walked through it with our team before moving on to a more sophisticated design. For good measure, we also ran through the low-fidelity prototypes with some helpfully willing potential users. At the lab, we manifested a user-first culture where we would involve our users as frequently as possible, to ensure that we build the right thing. We recognized that user demands can change with time and more information, so we never hesitated to invite people to get a sneak peek and show improved iterations of our designs and user flow. This worked in our favour as well since we would constantly be receiving feedback and fine-tuning our product. 
+        </p>
+
+        <h3 class="padding-30">User Flow</h3>
+        <p>
+            There are two users for this project; LCBO|next employees and LCBO|next app users. The goal is for the user of any LCBO|next product to be able to submit a bug, suggestion, or provide general feedback to the LCBO|next team. On the LCBO|next side, the goal is for the incoming structured data to be logged in a system that persists beyond co-op terms, and allows for direct communication back to the submitter. 
+
+            <br><br>For the app user side of the portal, it was designed to be a modal window that activated in any LCBO|next app upon clicking the always-visible but discreet “Help” logo, which is a chat bubble in LCBO green with a friendly smile. In addition to the ability to input relevant information depending on the type of request, the portal prompts users for their email if they desire to be notified of the date they can expect their request to be addressed. <br> <br>
+        </p>
+    </div>
+
+    <div class="container-med">
+        <img src="Images/lcbodesk/flow1.png" alt="#" style="width:100%">
+    </div>
+
+    <div class="container-proj">
+        <p>
+            <br>For the LCBO|next team side of the portal, it displayed incoming requests, which could be categorized and filtered by type, urgency, recency, and product. If the submitter opted to provide their email, a chat window would be enabled for the ticket, which would appear to the user as incoming emails. This would allow any current or future LCBO|next employee to view the details and communication that occurred for any request, active or closed. <br>  <br>
+        </p>
+    </div>
+
+    <div class="container-med">
+        <img src="Images/lcbodesk/flow2.png" alt="#" style="width:100%">
+    </div>
+
+    <div class="container-proj">
+        <h3 class="padding-30">Branding & UI Guidelines</h3>
+    </div>
+
+    <div class="container-med">
+        <img src="Images/lcbodesk/styling.png" alt="#" style="width:100%">
+    </div>
+
+    <div class="container-proj">
+        <h3 class="padding-30">Other potential features </h3>
+        <ul>
+            <li>Opening up the portal to suggestions from the general public for suggestions on consumer-facing LCBO apps (ex: the eCommerce website, features such as the built-in live chat feature, etc)
+            </li>
+            <li>Track which pages the user was on before opening the support channel. This can allow for some of the question fields to be pre-populated with answers  </li>
+            </ul>
+
+        <h1 class="padding-30">Next Steps</h1>
+        <ol>
+            <li>Conduct usability testing of our high-fidelity designs to validate our designs and confirm whether the user flow is intuitive or not</li>
+            <li>Conduct UAT with our intended users to ensure they could dive into the experience with no surprises</li>
+            <li>Launch and monitor our product with Google Analytics or Amplitude to monitor user trends and inform a feature list for the product’s next subsequent iterations </li>
+        </ol>
+
+        <h1 class="padding-30">Next Steps</h1>
+        <p>
+            Overall, my experience at the LCBO Innovation Lab was beyong valuable. In four short months, I was fortunate enough to learn about and lead the product design process. Through this, I truly believe I found my strive as a product designer and developed confidence in my abilities. I was fortunate enough to have an amazing supervisor in Danny Ho, the Director of Innovation, who supported me the whole way and was always open to answer any questions that I had. 
+        </p>
+    </div>
+
+
+
+    <div class="back-proj" >
+        <h1> <a href="wsib-admin-portal.html">&#8249; WSIB Lab - Admin Portal </a> </h1>
+    </div>
+
+    <div class="next-proj" >
+        <h1> <a href="mudd.html">LCBO|Next MUDD &#8250; </a> </h1>
+    </div>
+
+    <footer class="text-center">
+        <a class="a-footer" href="mailto:cru@uwaterloo.ca?Subject="> <img src="Images/email icon.png" alt="Link to email Christina Ru" width="24px" height="px" class="footer-img-margin"></a>
+        <a class="a-footer" href="https://www.linkedin.com/in/christinaru/" target="blank"> <img src="Images/linkedin icon.png" alt="Link to Christina Ru's Linkedin Profile" width="24px" height="24px" class="footer-img-margin"></a>
+        <h4>Designed and developed by Christina Ru</h4> 
+        <h4>All glory to God</h4>
+    </footer>
+
+</body>
+</html>
